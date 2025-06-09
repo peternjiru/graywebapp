@@ -3,7 +3,7 @@ from PIL import Image # PIL installed when streamlit is installed
 
 st.subheader("Color to Grayscale convertor")
 
-# upload image and save to variable
+# upload an image and save to variable
 uploaded_image = st.file_uploader("Upload Image")
 
 if uploaded_image:
